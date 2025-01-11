@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-grnt {
+  background-image: radial-gradient(
+    ellipse 80% 50% at 50% -20%,
+    hsl(44, 100%, 16%),
+    transparent
+  );
+}
+
+body {
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #992424;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #b31818;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8f3535;
+  }
+}
+
+.scrollable-container {
+  height: 400px; /* Set a height for the scrollable area */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
