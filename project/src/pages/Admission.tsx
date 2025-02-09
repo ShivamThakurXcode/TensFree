@@ -33,9 +33,9 @@ const Admission = () => {
                   <li>Mode: Online Examination</li>
                 </ul>
               </div>
-              <GraduationCap className="h-6 w-6 text-indigo-600" />
+              <GraduationCap className="h-6 w-6 text-orange-600" />
             </div>
-            <button className="w-full md:w-auto px-6 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">
+            <button className="w-full md:w-auto px-6 py-2 bg-orange-600 text-white rounded-md hover:bg-orange-700">
               Apply Now
             </button>
           </div>

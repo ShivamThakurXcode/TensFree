@@ -9,21 +9,21 @@ const Resources = () => {
       {/* Resource Categories */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
         <div className="bg-transparent p-6 rounded-lg shadow-md text-center">
-          <Book className="h-12 w-12 text-indigo-600 mx-auto mb-4" />
+          <Book className="h-12 w-12 text-orange-600 mx-auto mb-4" />
           <h2 className="text-xl font-semibold mb-2">Study Materials</h2>
           <p className="text-gray-600">
             Access comprehensive study guides and notes
           </p>
         </div>
         <div className="bg-transparent p-6 rounded-lg shadow-md text-center">
-          <FileText className="h-12 w-12 text-indigo-600 mx-auto mb-4" />
+          <FileText className="h-12 w-12 text-orange-600 mx-auto mb-4" />
           <h2 className="text-xl font-semibold mb-2">Previous Papers</h2>
           <p className="text-gray-600">
             Practice with previous year question papers
           </p>
         </div>
         <div className="bg-transparent p-6 rounded-lg shadow-md text-center">
-          <Video className="h-12 w-12 text-indigo-600 mx-auto mb-4" />
+          <Video className="h-12 w-12 text-orange-600 mx-auto mb-4" />
           <h2 className="text-xl font-semibold mb-2">Video Lectures</h2>
           <p className="text-gray-600">Watch expert video explanations</p>
         </div>
@@ -46,7 +46,7 @@ const Resources = () => {
                   Complete analysis of previous year papers with solutions
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">
+                  <span className="px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-sm">
                     PDF Format
                   </span>
                   <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
@@ -54,9 +54,9 @@ const Resources = () => {
                   </span>
                 </div>
               </div>
-              <Download className="h-6 w-6 text-indigo-600" />
+              <Download className="h-6 w-6 text-orange-600" />
             </div>
-            <button className="mt-4 px-6 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">
+            <button className="mt-4 px-6 py-2 bg-orange-600 text-white rounded-md hover:bg-orange-700">
               Download Now
             </button>
           </div>

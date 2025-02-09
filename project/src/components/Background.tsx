@@ -5,7 +5,7 @@ function Background() {
   return (
     <>
       <div className=" w-screen fixed z-[-1]  h-screen bg-gradient-to-r from-[#000000]  to-[#000000] ">
-        <div className="bg-grnt  w-screen h-screen">
+        <div className="bg-grnt   w-screen h-screen">
           <HeroHighlight>
             <motion.h1
               initial={{
